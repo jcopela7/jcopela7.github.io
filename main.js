@@ -3,7 +3,6 @@ $(document).ready(function() {
         'url(./img/background.jpg)',
         'url(./img/background2.jpg)'
     );
-    //
     var t = 0;
     setInterval(function() {
         $('body').css("background-image", backgrounds[t]);

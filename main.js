@@ -1,4 +1,5 @@
-$(document).ready(function() {
+//Fading background
+/*$(document).ready(function() {
     var backgrounds = new Array(
         'url(./img/background.jpg)',
         'url(./img/background2.jpg)'
@@ -12,4 +13,9 @@ $(document).ready(function() {
         }
     }, 4000);
 
+});*/
+
+//Parallax
+$(document).ready(function(){
+  $('.parallax').parallax();
 });

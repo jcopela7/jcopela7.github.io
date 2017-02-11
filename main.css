@@ -1,18 +1,18 @@
-body{
+/*body{
   transition: background 1s linear;
   background-image: url(./img/background.jpg);
   background-size: cover;
   background-repeat:no-repeat;
 
-}
+}*/
 
 #headshot{
-
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin: auto;
 }
 #headshot .img-circle{
 	height: 100%;
+  position: relative;
   border-radius: 50%;
 }

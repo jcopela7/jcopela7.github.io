@@ -17,3 +17,10 @@
   position: relative;
   border-radius: 50%;
 }
+.parallax-container{
+  height:26vw;
+}
+
+.parallax-container-aboutme{
+  height: 25vw;
+}

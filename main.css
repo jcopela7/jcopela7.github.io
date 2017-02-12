@@ -7,11 +7,12 @@
 }*/
 
 #headshot{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: auto;
 }
 #headshot .img-circle{
+  top:10px;
 	height: 100%;
   position: relative;
   border-radius: 50%;

@@ -12,6 +12,8 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
+
+
   <link rel="stylesheet" href="main.css">
   <script type="text/javascript" src="main.js"></script>
 </head>
@@ -50,8 +52,10 @@
         <h2 class="header">Looking for someting?</h2>
         <p class ="grey-text text-darken-3 lighten-3"> Welcome to my personal website! Here you can find "DIY Manuals" for my personal projects, information about me and more!</p>
         <!--Linked buttons-->
-        <a class = "deep-orange lighten-1 waves-effect waves-light btn" href="Jonathan Copeland 2017.pdf">Resume</a>
-        <a class = "deep-orange lighten-1 waves-effect waves-light btn" href="https://github.com/jcopela7">Github</a>
+        <div class="deep-orange lighten-1 waves-effect waves-light btn"> Contact Me </div>
+        <a class = "deep-orange lighten-1 waves-effect waves-light btn" href="Jonathan Copeland 2017.pdf" target="blank">Resume</a>
+        <a href="https://github.com/jcopela7" target="blank"><img id="github-icon" src="./img/github.png" align="center"></a>
+
         </div>
   </div>
   </div>
@@ -65,14 +69,24 @@
 
   <!--Final container with links to other pages-->
     <div class="section deep-orange lighten-4">
-      <div class = "row container">
+      <div id="links" class = "container">
         <h2 class = "header"> How can I help? </h2>
         <!-- TODO: fix button hover -->
         <a class = "deep-orange lighten-1 waves-effect waves-light btn" href="aboutme.html">About Me</a>
-      <div class = "col s3">
+
         <a class = "deep-orange lighten-1 waves-effect waves-light btn" href="personalprojects.html">Personal Projects</a>
+
+
       </div>
+    </div>
+
+    <footer class="deep-orange lighten-3 page-footer">
+    <div class="footer-copyright deep-orange lighten-1">
+      <div class="container">
+      Updated Feb 12
+      <a class="grey-text text-lighten-4 right" href="index.html">Home</a>
       </div>
-      </div>
-</body>
+    </div>
+  </footer>
+
 </html>

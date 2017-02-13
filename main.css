@@ -5,7 +5,9 @@
   background-repeat:no-repeat;
 
 }*/
-
+#github-icon{
+  height:50px;
+}
 #headshot{
   height: 250px;
   width: 250px;
@@ -22,6 +24,16 @@
 
 }
 
-.parallax-container-aboutme{
-  height: 31vw;
+#aboutme{
+  height: 32vw;
+}
+
+#links{
+  padding-bottom: 60px;
+}
+
+#icon{
+  height:100px;
+  width: 100px;
+
 }

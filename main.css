@@ -37,3 +37,19 @@
   width: 100px;
 
 }
+
+#project{
+  height:10vw;
+  color: rgb(0,0,255);
+}
+
+#thumbnill{
+  height:18vw;
+  width:18vw;
+}
+
+#thumbnill .img{
+  margin-top: 5%;
+  margin-left: 5%;
+  height:90%;
+}

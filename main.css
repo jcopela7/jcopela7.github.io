@@ -8,6 +8,11 @@
 #github-icon{
   height:50px;
 }
+
+#linkedin-icon{
+  height:31px;
+}
+
 #headshot{
   height: 250px;
   width: 250px;
@@ -52,4 +57,8 @@
   margin-top: 5%;
   margin-left: 5%;
   height:90%;
+}
+
+span{
+  font-weight: bold;
 }

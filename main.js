@@ -18,4 +18,10 @@
 //Parallax
 $(document).ready(function(){
   $('.parallax').parallax();
+
+$(".project").click(function(){
+    $('project').css("height","20vw");
+    alert(hello);
+
+});
 });

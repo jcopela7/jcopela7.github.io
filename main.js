@@ -22,6 +22,11 @@ $(document).ready(function(){
   $('.modal').modal({
   dismissible:true,
   opacity:0.7,
+  startingTop:'50%',
+  });
+
+  $('.slider').slider({
+    interval:1000000,
   });
 
 });

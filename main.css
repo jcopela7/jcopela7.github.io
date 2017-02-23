@@ -13,6 +13,11 @@
   height:31px;
 }
 
+#link-icon{
+  margin-bottom: 1%;
+  height:1em;
+}
+
 #headshot{
   height: 250px;
   width: 250px;
@@ -61,4 +66,17 @@
 
 span{
   font-weight: bold;
+}
+
+#slider-pics{
+  margin-top: 2%;
+}
+
+#slides{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.modal{
+  width:60%;
+  height:100%;
 }

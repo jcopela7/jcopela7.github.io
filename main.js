@@ -21,7 +21,7 @@ $(document).ready(function(){
 
   $('.modal').modal({
   dismissible:true,
-  opacity:10,
-});
+  opacity:0.7,
+  });
 
 });
